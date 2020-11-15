@@ -21,7 +21,6 @@
 		9748E85325616CB80082CE41 /* ReactiveExtensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E85025616CB80082CE41 /* ReactiveExtensiones.swift */; };
 		9748E869256183790082CE41 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E868256183790082CE41 /* Book.swift */; };
 		9748E883256193780082CE41 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E882256193780082CE41 /* MessageView.swift */; };
-		9748E888256193940082CE41 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9748E887256193930082CE41 /* MessageView.xib */; };
 		9748E893256193DE0082CE41 /* AnimateloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E88F256193DE0082CE41 /* AnimateloadingView.swift */; };
 		9748E894256193DE0082CE41 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9748E890256193DE0082CE41 /* LoadingView.xib */; };
 		9748E895256193DE0082CE41 /* LoadingViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E891256193DE0082CE41 /* LoadingViewable.swift */; };
@@ -29,6 +28,7 @@
 		9748E89D256198970082CE41 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9748E89B256198960082CE41 /* BookTableViewCell.xib */; };
 		9748E89E256198970082CE41 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E89C256198970082CE41 /* BookTableViewCell.swift */; };
 		9748E8B92561A8950082CE41 /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9748E8B82561A8950082CE41 /* BookViewModel.swift */; };
+		9748E8DE2561E7850082CE41 /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9748E8DD2561E7850082CE41 /* MessageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,6 @@
 		9748E85025616CB80082CE41 /* ReactiveExtensiones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveExtensiones.swift; sourceTree = "<group>"; };
 		9748E868256183790082CE41 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		9748E882256193780082CE41 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
-		9748E887256193930082CE41 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageView.xib; path = "../../../../Downloads/MVVMRx_SampleProject-master-2/MVVMRx/SupportFiles/MessageView/MessageView.xib"; sourceTree = "<group>"; };
 		9748E88F256193DE0082CE41 /* AnimateloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateloadingView.swift; sourceTree = "<group>"; };
 		9748E890256193DE0082CE41 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		9748E891256193DE0082CE41 /* LoadingViewable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewable.swift; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		9748E89B256198960082CE41 /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
 		9748E89C256198970082CE41 /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		9748E8B82561A8950082CE41 /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		9748E8DD2561E7850082CE41 /* MessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageView.xib; sourceTree = "<group>"; };
 		B982BFF4E022166C6BD4CF12 /* Pods_WordCount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordCount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDCCB4C7A77D2AD4EC6AA7D /* Pods-WordCount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordCount.debug.xcconfig"; path = "Target Support Files/Pods-WordCount/Pods-WordCount.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,7 +248,7 @@
 		9748E87C256192B70082CE41 /* MessageView */ = {
 			isa = PBXGroup;
 			children = (
-				9748E887256193930082CE41 /* MessageView.xib */,
+				9748E8DD2561E7850082CE41 /* MessageView.xib */,
 				9748E882256193780082CE41 /* MessageView.swift */,
 			);
 			path = MessageView;
@@ -376,8 +376,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9748E8DE2561E7850082CE41 /* MessageView.xib in Resources */,
 				9748E80725613A990082CE41 /* LaunchScreen.storyboard in Resources */,
-				9748E888256193940082CE41 /* MessageView.xib in Resources */,
 				9748E80425613A990082CE41 /* Assets.xcassets in Resources */,
 				9748E80225613A980082CE41 /* Main.storyboard in Resources */,
 				9748E894256193DE0082CE41 /* LoadingView.xib in Resources */,
